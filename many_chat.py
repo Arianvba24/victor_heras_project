@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import urllib.request
 
 
-@st.cache_data
+# @st.cache_data
 def load_data():
     spreadsheet_id = '1bkyXjgjjcjv0LqS6FudGp_tzZ5S3Bvzkuz2N91ZVFI4'
     sheet_id = '356104726'
