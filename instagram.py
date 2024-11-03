@@ -4,7 +4,7 @@ import locale
 import plotly.graph_objects as go
 
 def load_data():
-    df = pd.read_excel(r"C:\Users\Cash\Proyectos\092024\Victor heras project\Instagram bot\dataframe.xlsx")
+    df = pd.read_excel(r"dataframe.xlsx")
     df["URL publicación"] = df["URL publicación"].apply(lambda x: f"https://www.instagram.com/{x}")
     return df
 def formatear_por_miles(valor):
