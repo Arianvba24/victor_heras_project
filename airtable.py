@@ -73,7 +73,7 @@ def loading():
             print("Error al obtener los datos:", response.status_code, response.text)
             break
     
-    dp = pd.read_csv(r"C:\Users\Cash\Downloads\Agendaciones VProject-Tabla pruebas.csv")
+    dp = pd.read_csv(r"Agendaciones VProject-Tabla pruebas.csv")
     xp1 = dp.columns.to_list()
 
 
